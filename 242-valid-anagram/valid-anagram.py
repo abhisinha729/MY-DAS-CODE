@@ -11,9 +11,9 @@ class Solution:
                 dict1[i]=1
         for j in t:
             if j in dict2:
-                dict2[j]+=1
+                dict2[j]+=1 #if the character is available then increment count by 1
             else:
-                dict2[j]=1
+                dict2[j]=1 # update character
         if dict1!=dict2:
             return False
         else:
